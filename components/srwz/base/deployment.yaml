@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: srwz
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-qzyr-tenant/byoc-app-fmqt/srwz@sha256:52f3841b750014239396a29611e3e93b6bd0ba443af8da725d23e8b6ce9cc1ed
         name: my-java-quarkus
         ports:
         - containerPort: 8081
